@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(31, 31, 33, 0.807) ;
+
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    max-width: 90px; 
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    max-width: 40;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+
+.navigation a:hover {
+    color: #6f6363;
+}
+
+hr{
+    opacity: 40%;
+}
